@@ -10,53 +10,53 @@ export const PrintTemplate = (lineWidth = 48) => {
     };
   
     return (
-      center("Company XYZ") +
+      center("Company ABC") +
       "\n" +
-      center("www.xyz.com") +
+      center("www.abc.com") +
       "\n\n" +
-      pad("Agent:", "xyz - Oakville") +
+      pad("Agent:", "abc - City") +
       "\n" +
       pad("Address:", "") +
       "\n" +
-      pad("Phone Number:", "+1 (647) 948 8916") +
+      pad("Phone Number:", "+1 (123) 456 7890") +
       "\n\n" +
-      pad("Date:", "16/07/2024") +
+      pad("Date:", "01/01/2024") +
       "\n" +
-      pad("Time:", "03:45 PM") +
+      pad("Time:", "12:00 PM") +
       "\n\n" +
       center("SEND MONEY") +
       "\n" +
       center("TRANSACTION CONFIRMATION") +
       "\n" +
-      pad("REFERENCE NUMBER:", "124075099") +
+      pad("REFERENCE NUMBER:", "000000000") +
       "\n\n" +
-      pad("Customer Name:", "John") +
+      pad("Customer Name:", "Jane Doe") +
       "\n" +
-      pad("OM Account Number:", "S50495") +
+      pad("OM Account Number:", "A12345") +
       "\n\n" +
-      pad("Beneficiary Name:", "Jordon Syed Test") +
+      pad("Beneficiary Name:", "John Smith") +
       "\n" +
-      pad("Beneficiary Address:", "1243 Main st, Petra") +
+      pad("Beneficiary Address:", "123 Main St, City") +
       "\n" +
-      pad("Beneficiary Country:", "Jordan") +
+      pad("Beneficiary Country:", "Country") +
       "\n" +
-      pad("Beneficiary Phone:", "15847859888") +
+      pad("Beneficiary Phone:", "1234567890") +
       "\n\n" +
-      pad("Customer Pays:", "500.00 CAD") +
+      pad("Customer Pays:", "100.00 USD") +
       "\n" +
-      pad("Our Fees:", "7.00 CAD") +
+      pad("Our Fees:", "5.00 USD") +
       "\n" +
-      pad("We Will Convert:", "493.00 CAD") +
+      pad("We Will Convert:", "95.00 USD") +
       "\n" +
-      pad("Our Rate:", "0.5093") +
+      pad("Our Rate:", "1.0000") +
       "\n" +
-      pad("Beneficiary Gets:", "251.08 JOD") +
+      pad("Beneficiary Gets:", "95.00 USD") +
       "\n" +
       pad("Transaction Type:", "Cash Payout") +
       "\n" +
-      pad("Reference:", "2400004534166") +
+      pad("Reference:", "0000000000000") +
       "\n" +
-      pad("Payment Purpose:", "Business Expenses") +
+      pad("Payment Purpose:", "Personal") +
       "\n\n" +
       center("Thank you for transacting with us!") +
       "\n" +
